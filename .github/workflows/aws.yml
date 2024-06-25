@@ -47,7 +47,7 @@ jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    environment: production
+    environment: Dev
 
     steps:
     - name: Checkout
