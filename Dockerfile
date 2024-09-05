@@ -1,5 +1,5 @@
 # Use the official Ubuntu base image
-FROM ubuntu:rolling
+FROM ubuntu:24.10
 
 #update the Ubuntu environment and install the Apache2 server package from the Ubuntu repository
 RUN apt update -y && apt install apache2 -y
